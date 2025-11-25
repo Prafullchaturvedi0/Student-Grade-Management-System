@@ -13,9 +13,11 @@ A small command-line Python program to manage student names and integer grades, 
 5. [Functions & Implementation Details](#functions--implementation-details)
 6. [Algorithm Notes](#algorithm-notes)
 7. [Examples](#examples)
-8. [Limitations & Possible Improvements](#limitations--possible-improvements)
-9. [Contributing](#contributing)
-10. [License](#license)
+8. [Screenshots/Results](#screenshotsresults)
+9. [Instructions for Testing](#instructions-for-testing)
+10. [Limitations & Possible Improvements](#limitations--possible-improvements)
+11. [Contributing](#contributing)
+12. [License](#license)
 
 ---
 
@@ -131,6 +133,94 @@ Grade: 78
 4. Find topper (`7`) — shows highest grade `78` and students `Alice`, `Carol`.
 5. Count specific grade (`6`) and enter `78` — result should be `2`.
 
+## Screenshots/Results
+
+Below are screenshots from running the program (click images to enlarge on GitHub):
+
+![Figure 1 — Main menu](Images/Screenshot%202025-11-25%20001529.png)
+
+_Figure 1 — Main menu (Screenshot 2025-11-25 001529)_
+
+![Figure 2 — Adding students / input prompts](Images/Screenshot%202025-11-25%20001654.png)
+
+_Figure 2 — Adding students / input prompts (Screenshot 2025-11-25 001654)_
+
+![Figure 3 — Viewing students list](Images/Screenshot%202025-11-25%20001748.png)
+
+_Figure 3 — Viewing students list (Screenshot 2025-11-25 001748)_
+
+![Figure 4 — Reverse display names example](Images/Screenshot%202025-11-25%20001845.png)
+
+_Figure 4 — Reverse display names example (Screenshot 2025-11-25 001845)_
+
+![Figure 5 — Counting specific grade occurrence](Images/Screenshot%202025-11-25%20001936.png)
+
+_Figure 5 — Counting specific grade occurrence (Screenshot 2025-11-25 001936)_
+
+![Figure 6 — Find topper output](Images/Screenshot%202025-11-25%20002047.png)
+
+_Figure 6 — Find topper output (Screenshot 2025-11-25 002047)_
+
+![Figure 7 — Unique grades ordered output](Images/Screenshot%202025-11-25%20002224.png)
+
+_Figure 7 — Unique grades ordered output (Screenshot 2025-11-25 002224)_
+
+![Figure 8 — Partition pass/fail output](Images/Screenshot%202025-11-25%20002910.png)
+
+_Figure 8 — Partition pass/fail output (Screenshot 2025-11-25 002910)_
+
+![Figure 9 — k-th lowest unique grade selection](Images/Screenshot%202025-11-25%20002959.png)
+
+_Figure 9 — k-th lowest unique grade selection (Screenshot 2025-11-25 002959)_
+
+![Figure 10 — More UI / results](Images/Screenshot%202025-11-25%20003057.png)
+
+_Figure 10 — More UI / results (Screenshot 2025-11-25 003057)_
+
+![Figure 11 — Additional output example](Images/Screenshot%202025-11-25%20003136.png)
+
+_Figure 11 — Additional output example (Screenshot 2025-11-25 003136)_
+
+![Figure 12 — Additional output example 2](Images/Screenshot%202025-11-25%20003220.png)
+
+_Figure 12 — Additional output example 2 (Screenshot 2025-11-25 003220)_
+
+![Figure 13 — Additional output example 3](Images/Screenshot%202025-11-25%20003336.png)
+
+_Figure 13 — Additional output example 3 (Screenshot 2025-11-25 003336)_
+
+![Figure 14 — Additional output example 4](Images/Screenshot%202025-11-25%20003439.png)
+
+_Figure 14 — Additional output example 4 (Screenshot 2025-11-25 003439)_
+
+![Figure 15 — Additional output example 5](Images/Screenshot%202025-11-25%20003530.png)
+
+_Figure 15 — Additional output example 5 (Screenshot 2025-11-25 003530)_
+
+![Figure 16 — Final example output](Images/Screenshot%202025-11-25%20003612.png)
+
+_Figure 16 — Final example output (Screenshot 2025-11-25 003612)_
+
+## Instructions for Testing
+
+- Prerequisites
+  - Python 3.7 or later installed on your machine.
+  - Repository cloned or the `grades_system.py` script saved locally.
+- Quick manual test
+  1. Open a terminal in the project folder.
+  2. Run: `python grades_system.py`
+  3. Follow the interactive menu and perform operations in the Examples section (Add, View, Unique grades, Topper, Count, Reverse, Partition, k-th lowest).
+  4. Verify outputs match the screenshots and the example expectations.
+- Example test steps and expected results
+  - Add Alice (78), Bob (56), Carol (78) — then "View all" should list three entries.
+  - "View unique ordered grades" should show (56, 78).
+  - "Find topper" should print grade 78 with Alice and Carol.
+  - "Count specific grade" entering 78 should return count 2.
+  - For "k-th lowest unique grade", entering k values within the unique grade count should return corresponding grades; out-of-range k should show an error message.
+- Notes
+  - Input validation is minimal. Non-integer grade input will be rejected and you'll be returned to the menu.
+  - Data is in-memory only; exiting the program clears entries.
+
 ---
 
 ## Limitations & Possible Improvements
@@ -158,6 +248,3 @@ Contributions are welcome. If you plan to add features or refactor for productio
 This project is provided as-is for educational purposes. You can copy, modify, and use it without restriction. No warranty is provided.
 
 ---
-
-
-
