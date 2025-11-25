@@ -1,7 +1,5 @@
 student_grades = {}
 
-# --- ORIGINAL FUNCTIONS ---
-
 def add_student(name, grade):
     student_grades[name] = grade
     print(f"Added {name} with a {grade}.")
@@ -27,7 +25,6 @@ def display_all_student():
     else:
         print("No students found/added!!!")
 
-# --- NEW FUNCTIONALITIES (Based on requested algorithms) ---
 
 def reverse_display_names():
     """
