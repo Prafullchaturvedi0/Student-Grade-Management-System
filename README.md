@@ -139,67 +139,67 @@ Below are screenshots from running the program (click images to enlarge on GitHu
 
 ![Figure 1 — Main menu](Images/Screenshot%202025-11-25%20001529.png)
 
-_Figure 1 — Main menu (Screenshot 2025-11-25 001529)_
+_Figure 1 — Main menu_
 
 ![Figure 2 — Adding students / input prompts](Images/Screenshot%202025-11-25%20001654.png)
 
-_Figure 2 — Adding students / input prompts (Screenshot 2025-11-25 001654)_
+_Figure 2 — Adding students / input prompts_
 
 ![Figure 3 — Viewing students list](Images/Screenshot%202025-11-25%20001748.png)
 
-_Figure 3 — Viewing students list (Screenshot 2025-11-25 001748)_
+_Figure 3 — Viewing students list_
 
 ![Figure 4 — Reverse display names example](Images/Screenshot%202025-11-25%20001845.png)
 
-_Figure 4 — Reverse display names example (Screenshot 2025-11-25 001845)_
+_Figure 4 — Reverse display names example_
 
 ![Figure 5 — Counting specific grade occurrence](Images/Screenshot%202025-11-25%20001936.png)
 
-_Figure 5 — Counting specific grade occurrence (Screenshot 2025-11-25 001936)_
+_Figure 5 — Counting specific grade occurrence_
 
 ![Figure 6 — Find topper output](Images/Screenshot%202025-11-25%20002047.png)
 
-_Figure 6 — Find topper output (Screenshot 2025-11-25 002047)_
+_Figure 6 — Find topper output_
 
 ![Figure 7 — Unique grades ordered output](Images/Screenshot%202025-11-25%20002224.png)
 
-_Figure 7 — Unique grades ordered output (Screenshot 2025-11-25 002224)_
+_Figure 7 — Unique grades ordered output_
 
 ![Figure 8 — Partition pass/fail output](Images/Screenshot%202025-11-25%20002910.png)
 
-_Figure 8 — Partition pass/fail output (Screenshot 2025-11-25 002910)_
+_Figure 8 — Partition pass/fail output_
 
 ![Figure 9 — k-th lowest unique grade selection](Images/Screenshot%202025-11-25%20002959.png)
 
-_Figure 9 — k-th lowest unique grade selection (Screenshot 2025-11-25 002959)_
+_Figure 9 — k-th lowest unique grade selection_
 
 ![Figure 10 — More UI / results](Images/Screenshot%202025-11-25%20003057.png)
 
-_Figure 10 — More UI / results (Screenshot 2025-11-25 003057)_
+_Figure 10 — More UI / results_
 
 ![Figure 11 — Additional output example](Images/Screenshot%202025-11-25%20003136.png)
 
-_Figure 11 — Additional output example (Screenshot 2025-11-25 003136)_
+_Figure 11 — Additional output example_
 
 ![Figure 12 — Additional output example 2](Images/Screenshot%202025-11-25%20003220.png)
 
-_Figure 12 — Additional output example 2 (Screenshot 2025-11-25 003220)_
+_Figure 12 — Additional output example 2_
 
 ![Figure 13 — Additional output example 3](Images/Screenshot%202025-11-25%20003336.png)
 
-_Figure 13 — Additional output example 3 (Screenshot 2025-11-25 003336)_
+_Figure 13 — Additional output example 3_
 
 ![Figure 14 — Additional output example 4](Images/Screenshot%202025-11-25%20003439.png)
 
-_Figure 14 — Additional output example 4 (Screenshot 2025-11-25 003439)_
+_Figure 14 — Additional output example 4_
 
 ![Figure 15 — Additional output example 5](Images/Screenshot%202025-11-25%20003530.png)
 
-_Figure 15 — Additional output example 5 (Screenshot 2025-11-25 003530)_
+_Figure 15 — Additional output example 5_
 
 ![Figure 16 — Final example output](Images/Screenshot%202025-11-25%20003612.png)
 
-_Figure 16 — Final example output (Screenshot 2025-11-25 003612)_
+_Figure 16 — Final example output_
 
 ## Instructions for Testing
 
