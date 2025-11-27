@@ -237,6 +237,15 @@ This project is intentionally simple and educational. Suggested improvements:
 
 ---
 
+## Project History
+A complete comprehensive commit history of this repository is available here:
+
+➡️ **[View COMMIT_HISTORY.md](COMMIT_HISTORY.md)**
+
+This file documents every commit, change category, affected modules, and project evolution.
+
+---
+
 ## Contributing
 
 Contributions are welcome. If you plan to add features or refactor for production readiness, consider: adding tests, splitting logic into a `StudentGrades` class, and creating a module for persistence.
