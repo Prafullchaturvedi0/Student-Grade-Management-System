@@ -136,7 +136,7 @@ Grade: 78
 
 ## Screenshots/Results
 
-Below are screenshots from running the program (click images to enlarge on GitHub):
+Below are screenshots from running the program (click images to enlarge):
 
 ![Figure 1 — Main menu](Images/Screenshot%202025-11-25%20001529.png)
 
@@ -249,7 +249,7 @@ This file documents every commit, change category, affected modules, and project
 
 ## Contributing
 
-Contributions are welcome. If you plan to add features or refactor for production readiness, consider: adding tests, splitting logic into a `StudentGrades` class, and creating a module for persis[...]
+Contributions are welcome. If you plan to add features or refactor for production readiness, consider: adding tests, splitting logic into a `StudentGrades` class, and creating a module for persistence (e.g., saving to JSON, CSV, or a database).
 
 ---
 
