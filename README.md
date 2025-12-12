@@ -1,6 +1,7 @@
 # Student Grades Management System
 
-A small command-line Python program to manage student names and integer grades, and perform basic analyses using manual algorithmic approaches (array reversal, counting, finding maximum, duplicate [...]
+A small command-line Python program to manage student names and integer grades, and perform basic analyses using manual algorithmic approaches (array reversal, counting, finding maximum, duplicate removal, sorting, partitioning and k-th smallest selection)). It is designed for the efficient management and algorithmic analysis of student academic records. It replaces manual record-keeping with a structured, digital dictionary-based system. 
+This project is educational — it demonstrates how common array/set algorithms can be implemented with loops and primitive data structures.
 
 ---
 
@@ -62,7 +63,7 @@ python grades_system.py
 
 ## Usage
 
-When you run the script it presents a numbered menu. Enter the number corresponding to the action you want to perform. Most operations that require a grade will prompt you to input an integer. Exa[...]
+When you run the script it presents a numbered menu. Enter the number corresponding to the action you want to perform. Most operations that require a grade will prompt you to input an integer. Example menu items include:
 
 * `1` Add student
 * `2` Update student
@@ -104,7 +105,7 @@ All interactive prompts use `input()` and print feedback to the console.
 
 ## Algorithm Notes (educational focus)
 
-* Several operations intentionally avoid Python built-ins like `reversed()`, `set()` sorting shortcuts, or `sorted()` to demonstrate explicit algorithmic implementations (in-place reversal, manua[...]
+* Several operations intentionally avoid Python built-ins like `reversed()`, `set()` sorting shortcuts, or `sorted()` to demonstrate explicit algorithmic implementations (in-place reversal, manual duplicate removal, and bubble sort).
 * `find_kth_lowest_grade()` uses `set` to remove duplicates, then a manual bubble-sort to keep the implementation iterative and readable for learners.
 
 ---
