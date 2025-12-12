@@ -1,6 +1,6 @@
 # Student Grades Management System
 
-A small command-line Python program to manage student names and integer grades, and perform basic analyses using manual algorithmic approaches (array reversal, counting, finding maximum, duplicate removal, partitioning, and k-th smallest selection). This project is educational — it demonstrates how common array/set algorithms can be implemented with loops and primitive data structures.
+A small command-line Python program to manage student names and integer grades, and perform basic analyses using manual algorithmic approaches (array reversal, counting, finding maximum, duplicate [...]
 
 ---
 
@@ -16,8 +16,9 @@ A small command-line Python program to manage student names and integer grades, 
 8. [Screenshots/Results](#screenshotsresults)
 9. [Instructions for Testing](#instructions-for-testing)
 10. [Limitations & Possible Improvements](#limitations--possible-improvements)
-11. [Contributing](#contributing)
-12. [License](#license)
+11. [Project History](#project-history)
+12. [Contributing](#contributing)
+13. [License](#license)
 
 ---
 
@@ -61,7 +62,7 @@ python grades_system.py
 
 ## Usage
 
-When you run the script it presents a numbered menu. Enter the number corresponding to the action you want to perform. Most operations that require a grade will prompt you to input an integer. Example menu items include:
+When you run the script it presents a numbered menu. Enter the number corresponding to the action you want to perform. Most operations that require a grade will prompt you to input an integer. Exa[...]
 
 * `1` Add student
 * `2` Update student
@@ -103,7 +104,7 @@ All interactive prompts use `input()` and print feedback to the console.
 
 ## Algorithm Notes (educational focus)
 
-* Several operations intentionally avoid Python built-ins like `reversed()`, `set()` sorting shortcuts, or `sorted()` to demonstrate explicit algorithmic implementations (in-place reversal, manual counting, manual max-finding, manual duplicate removal, and bubble sort).
+* Several operations intentionally avoid Python built-ins like `reversed()`, `set()` sorting shortcuts, or `sorted()` to demonstrate explicit algorithmic implementations (in-place reversal, manua[...]
 * `find_kth_lowest_grade()` uses `set` to remove duplicates, then a manual bubble-sort to keep the implementation iterative and readable for learners.
 
 ---
@@ -248,7 +249,7 @@ This file documents every commit, change category, affected modules, and project
 
 ## Contributing
 
-Contributions are welcome. If you plan to add features or refactor for production readiness, consider: adding tests, splitting logic into a `StudentGrades` class, and creating a module for persistence.
+Contributions are welcome. If you plan to add features or refactor for production readiness, consider: adding tests, splitting logic into a `StudentGrades` class, and creating a module for persis[...]
 
 ---
 
